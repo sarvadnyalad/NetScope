@@ -1,4 +1,4 @@
-# NetScope — Automated Nmap Recon & Reporting (Beginner-Friendly)
+# NetScope — Automated Nmap Recon & Reporting 
 
 A Windows-friendly, portfolio-ready automation that:
 1) Discovers live hosts on your home network,
