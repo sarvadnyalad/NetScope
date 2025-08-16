@@ -1,0 +1,11 @@
+{
+  "network": "AUTO",
+  "profiles": {
+    "quick": "-sV -T4",
+    "full": "-sV -T4 -p-",
+    "vuln": "--script vuln -sV -T4"
+  },
+  "discovery_args": "-sn",
+  "top_ports": 1000,
+  "enable_udp": false
+}

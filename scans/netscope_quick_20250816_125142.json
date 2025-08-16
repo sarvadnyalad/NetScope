@@ -1,0 +1,80 @@
+{
+  "192.168.56.1": {
+    "hostnames": [
+      {
+        "name": "",
+        "type": ""
+      }
+    ],
+    "addresses": {
+      "ipv4": "192.168.56.1"
+    },
+    "vendor": {},
+    "status": {
+      "state": "up",
+      "reason": "localhost-response"
+    },
+    "tcp": {
+      "135": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "msrpc",
+        "product": "Microsoft Windows RPC",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/o:microsoft:windows"
+      },
+      "139": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "netbios-ssn",
+        "product": "Microsoft Windows netbios-ssn",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/o:microsoft:windows"
+      },
+      "445": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "microsoft-ds",
+        "product": "",
+        "version": "",
+        "extrainfo": "",
+        "conf": "3",
+        "cpe": ""
+      },
+      "3306": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "mysql",
+        "product": "MariaDB",
+        "version": "11.6.2",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:mariadb:mariadb:11.6.2"
+      },
+      "8000": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "http",
+        "product": "Splunkd httpd",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:splunk:splunk"
+      },
+      "8089": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "http",
+        "product": "Splunkd httpd",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:splunk:splunk"
+      }
+    }
+  }
+}

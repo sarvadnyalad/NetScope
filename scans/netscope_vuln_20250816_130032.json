@@ -1,0 +1,107 @@
+{
+  "192.168.56.1": {
+    "hostnames": [
+      {
+        "name": "",
+        "type": ""
+      }
+    ],
+    "addresses": {
+      "ipv4": "192.168.56.1"
+    },
+    "vendor": {},
+    "status": {
+      "state": "up",
+      "reason": "localhost-response"
+    },
+    "tcp": {
+      "135": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "msrpc",
+        "product": "Microsoft Windows RPC",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/o:microsoft:windows"
+      },
+      "139": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "netbios-ssn",
+        "product": "Microsoft Windows netbios-ssn",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/o:microsoft:windows"
+      },
+      "445": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "microsoft-ds",
+        "product": "",
+        "version": "",
+        "extrainfo": "",
+        "conf": "3",
+        "cpe": ""
+      },
+      "3306": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "mysql",
+        "product": "MariaDB",
+        "version": "11.6.2",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:mariadb:mariadb:11.6.2"
+      },
+      "8000": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "http",
+        "product": "Splunkd httpd",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:splunk:splunk",
+        "script": {
+          "http-server-header": "Splunkd",
+          "http-enum": "\n  /robots.txt: Robots file\n",
+          "http-csrf": "Couldn't find any CSRF vulnerabilities.",
+          "http-stored-xss": "Couldn't find any stored XSS vulnerabilities.",
+          "http-dombased-xss": "Couldn't find any DOM based XSS."
+        }
+      },
+      "8089": {
+        "state": "open",
+        "reason": "syn-ack",
+        "name": "http",
+        "product": "Splunkd httpd",
+        "version": "",
+        "extrainfo": "",
+        "conf": "10",
+        "cpe": "cpe:/a:splunk:splunk",
+        "script": {
+          "http-server-header": "Splunkd",
+          "http-csrf": "\nSpidering limited to: maxdepth=3; maxpagecount=20; withinhost=192.168.56.1\n  Found the following possible CSRF vulnerabilities: \n    \n    Path: https://192.168.56.1:8089/static/atom.xsl\n    Form id: controlpoint{position()}\n    Form action: {@href}\n",
+          "http-stored-xss": "Couldn't find any stored XSS vulnerabilities.",
+          "http-dombased-xss": "Couldn't find any DOM based XSS."
+        }
+      }
+    },
+    "hostscript": [
+      {
+        "id": "smb-vuln-ms10-054",
+        "output": "false"
+      },
+      {
+        "id": "smb-vuln-ms10-061",
+        "output": "Could not negotiate a connection:SMB: Failed to receive bytes: ERROR"
+      },
+      {
+        "id": "samba-vuln-cve-2012-1182",
+        "output": "Could not negotiate a connection:SMB: Failed to receive bytes: ERROR"
+      }
+    ]
+  }
+}

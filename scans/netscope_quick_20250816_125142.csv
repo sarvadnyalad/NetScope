@@ -1,0 +1,7 @@
+ip,hostname,port,service,product,version,extrainfo
+192.168.56.1,,135,msrpc,Microsoft Windows RPC,,
+192.168.56.1,,139,netbios-ssn,Microsoft Windows netbios-ssn,,
+192.168.56.1,,445,microsoft-ds,,,
+192.168.56.1,,3306,mysql,MariaDB,11.6.2,
+192.168.56.1,,8000,http,Splunkd httpd,,
+192.168.56.1,,8089,http,Splunkd httpd,,
